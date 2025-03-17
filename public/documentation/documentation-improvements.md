@@ -90,3 +90,13 @@ Observerade tillgänglighetsproblem:
     1. Tagit bort struntkoden som enbart skapade fördröjning på sidan
 
     2. Lagt till en eventlistener för att få hamburgermenyn att fungera vid klick
+
+
+
+        Reflektion:
+-------------------
+    Till skillnad från den första uppgiften som var väldigt svår att komma igång på eftersom det var svårt att se en tydlig
+    struktur så var denna lite lättare att läsa av och implementera förändringar som avlsutningsvis förbättrar tillgängligheten. 
+
+    Verktyget W3 HTML-Validator tycker jag fångar upp en hel del som Lighthouse missar eftersom den fokuserar mer på själva koden
+    än användarupplevelsen. 
