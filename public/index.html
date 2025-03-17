@@ -47,6 +47,7 @@ Det finns många sätt att göra en webbplats mer tillgänglig, till exempel att
         <nav class="navbar">
           <a href="#home" class="logo">Vase Vista</a>
           <!-- Navigation menu with duplicate IDs, inconsistent tabindex, and broken links to a 404 page -->
+          <button class="nav-toggle">☰</button>
           <ul class="nav-links">
             <li><a tabindex="0" id="nav-home" href="#home">Home</a></li>
             <li><a tabindex="0" id="nav-collection" href="#collection">Collection</a></li>
@@ -88,9 +89,9 @@ Det finns många sätt att göra en webbplats mer tillgänglig, till exempel att
 
       <!-- Use a <button> instead of a <div> to improve accessibility -->
           <div class="category-filters">
-            <div class="filter-btn active">All</div>
+            <button class="filter-btn active">All</button>
             <button class="filter-btn">Ceramic</button>
-            <div class="filter-btn">Glass</div>
+            <button class="filter-btn">Glass</button>
             <button class="filter-btn">Porcelain</button>
           </div>
 
@@ -271,7 +272,6 @@ Det finns många sätt att göra en webbplats mer tillgänglig, till exempel att
         </div>
       </div>
     </footer>
-
-    
+    <script src="script.js" defer></script>  
   </body>
 </html>

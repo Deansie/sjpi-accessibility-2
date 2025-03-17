@@ -3,7 +3,7 @@
     --color-cream: #f9f7f4;
     --color-beige: #f0ebe5;
     --color-sand: #e5ded4;
-    --color-terracotta: #c5a491;
+    --color-terracotta: #A22D16;
     --color-charcoal: #2d2d2d;
     --font-sans: 'Inter', sans-serif;
     --font-serif: 'Playfair Display', serif;
@@ -537,10 +537,39 @@
       gap: 24px;
     }
   }
-  
+  @media (min-width: 769px) {
+    .nav-toggle {
+      display: none;
+    } 
+  }
+
   @media (max-width: 768px) {
     .nav-links {
       display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 28px;
+      left: 320px;
+      padding-top: 0.7rem;
+      padding-bottom: 0.7rem;
+      width: 8.4rem;
+      background: var(--color-cream);
+      border-style: solid;
+      border-color: lightgray;    
+
+      li {
+        margin-left: 1rem;
+      }
+    }
+    .nav-links.active {
+        display: flex; 
+    }
+    .nav-toggle {
+        display: block; 
+        font-size: 24px;
+        background: none;
+        border: none;
+        cursor: pointer;
     }
     
     .hero-content h1 {
