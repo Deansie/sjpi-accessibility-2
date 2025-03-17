@@ -1,42 +1,13 @@
-<!-- 
-The A11Y Project är ett community-drivet initiativ som strävar efter att göra digital tillgänglighet enklare, 
-mer begriplig och lättare att implementera för alla.
-
-Läs lite om projektet:
-https://www.a11yproject.com/about/
-
-
-Tillgänglighet är en viktig del av webbutveckling. Det handlar om att göra webbplatser och appar tillgängliga för alla, inklusive personer med funktionsnedsättningar. 
-Det finns många sätt att göra en webbplats mer tillgänglig, till exempel att använda semantisk HTML, skapa enkel navigering och använda alternativa texter för bilder.
- ____________________________________________________________________________________________________
- 1. Läs noga genom koden och identifiera alla tillgänglighetsproblem.
- 
- 2. Testa kör lighthouse i devtools(Google chrome) och se vilka problem som finns.
-
- 3. Skriv en kort sammanfattning av vad som är fel och hur det kan åtgärdas.
-
- 4. Skriv om koden så att den följer tillgänglighetsstandarder.
-
- 5. Skriv en kort sammanfattning av vad du har ändrat och varför.
-
- 6. Testa din nya kod med andra verktyg för tillgänglighet.
-
- 7. Skriv en kort reflektion över hur det var att göra uppgiften. Vad var svårt? Vad lärde du dig?
- ____________________________________________________________________________________________________
-
--->
-
-
 <!DOCTYPE html>
 <!-- What happens when the language attribute is commented out? -->
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Only one `<title>` should be used; multiple titles can cause unexpected behavior and negatively impact SEO and accessibility. -->
     <title>Vase Vista - Artisanal Vases</title>
-    <meta name="description" content="Elevating spaces through thoughtfully designed vessels that blend form and function in perfect harmony." />
-    <link rel="stylesheet" href="styles.css" />
+    <meta name="description" content="Elevating spaces through thoughtfully designed vessels that blend form and function in perfect harmony.">
+    <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
   </head>
 
@@ -104,7 +75,7 @@ Det finns många sätt att göra en webbplats mer tillgänglig, till exempel att
               </div>
               <div class="product-info">
                 <span class="product-category">Ceramic</span>
-                <h1>Terra Sculptural Vase</h3>
+                <h3>Terra Sculptural Vase</h3>
                 <p>Hand-thrown ceramic with a matte terracotta finish</p>
                 <span class="product-price">$120</span>
               </div>
@@ -156,7 +127,7 @@ Det finns många sätt att göra en webbplats mer tillgänglig, till exempel att
         <div class="container">
           <div class="philosophy-content">
             <div class="philosophy-image">
-              <img src="https://images.unsplash.com/photo-1576020799627-aeac74d58064?q=80&w=1964&auto=format&fit=crop">
+              <img src="https://images.unsplash.com/photo-1576020799627-aeac74d58064?q=80&w=1964&auto=format&fit=crop" alt="Image of cuttlery and candles on a table captured from above">
               <div class="quote-box">
                 <!-- a-tag, should be p-tag -->
                 <p>"Simplicity is the ultimate sophistication."</p>
