@@ -1,9 +1,9 @@
 
 Observerade tillgänglighetsproblem:
 
-
-        HTML:
 -------------------
+        HTML:
+
     1. Lang-attribut kommenterad, påverkar skärmläsare
     
     2. Två titlar, förvirrar skärmläsaren
@@ -30,26 +30,26 @@ Observerade tillgänglighetsproblem:
     10. Brutna länkar i footern, förvirrar användaren.
 
 
-
-        CSS:
 -------------------
+        CSS:
+
     1. För låg kontrast mellan färgerna där "terracotta" används
 
     2. Navigationen försvinner när sidan understiger 768px i bredd men ersätts inte av någon annan
        meny vilket gör navigationen otillgänglig.
 
 
-
-        JavaScript:
 -------------------
+        JavaScript:
+
     1. För denna filen tas inladdningen bort i index.html eftersom koden bara är nonsens som skapar
        hinder för sidan att fungera ordentligt.
 
-
+-------------------
         Ändringar
 
         HTML:
--------------------
+
     1. Språkattribut aktiverat
     
     2. Endast en title-tag
@@ -77,24 +77,23 @@ Observerade tillgänglighetsproblem:
     13. Tagit bort kommentarerna i början av filen eftersom det förhindrade W3 HTML Validatorn 
         att passera eftersom lang-attributet var för långt från början av filen
 
-
-        CSS:
 -------------------
+        CSS:
+
     1. Färgändring för "terracotta" eftersom den tidigare hade för dålig kontrast mot andra färger, följer nu WCAG AAA
 
     2. Styling till hamburgermeny som finns tillgänlig från 768px och neråt i bredd för en användarvänlig navigering
 
-
-        JavaScript:
 -------------------
+        JavaScript:
+
     1. Tagit bort struntkoden som enbart skapade fördröjning på sidan
 
     2. Lagt till en eventlistener för att få hamburgermenyn att fungera vid klick
 
-
-
-        Reflektion:
 -------------------
+        Reflektion:
+
     Till skillnad från den första uppgiften som var väldigt svår att komma igång på eftersom det var svårt att se en tydlig
     struktur så var denna lite lättare att läsa av och implementera förändringar som avlsutningsvis förbättrar tillgängligheten. 
 
