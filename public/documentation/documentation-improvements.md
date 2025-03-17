@@ -29,10 +29,18 @@ Observerade tillgänglighetsproblem:
 
     10. Brutna länkar i footern, förvirrar användaren.
 
+
+
         CSS:
 -------------------
+    1. För låg kontrast mellan färgerna där "terracotta" används
+
+    2. Navigationen försvinner när sidan understiger 768px i bredd men ersätts inte av någon annan
+       meny vilket gör navigationen otillgänglig.
 
 
 
         JavaScript:
 -------------------
+    1. För denna filen tas inladdningen bort i index.html eftersom koden bara är nonsens som skapar
+       hinder för sidan att fungera ordentligt.
