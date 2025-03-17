@@ -1,0 +1,12 @@
+{
+    "name": "vase-vista-server",
+    "version": "1.0.0",
+    "description": "Enkel Express-server för Vase Vista",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2"
+    }
+  }
